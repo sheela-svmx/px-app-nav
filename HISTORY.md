@@ -1,3 +1,6 @@
+v2.2.0
+* add strokeWidth in nav item
+
 v2.1.7
 ==================
 * Fix demo for IE

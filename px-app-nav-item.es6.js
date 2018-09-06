@@ -32,6 +32,14 @@
       },
 
       /**
+       * Used to set the icon's stroke-width
+       */
+      strokeWidth: {
+        type: Number,
+        value: 1,
+      },
+
+      /**
        * Set to `true` if this is a subitem.
        */
       subitem: {
