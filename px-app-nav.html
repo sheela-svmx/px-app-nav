@@ -467,7 +467,7 @@ Custom property | Description
 
             <!-- Stamp plain old items, which hold children -->
             <template is="dom-if" if="[[_isItemNotParent(item, keys.children)}}">
-              <px-app-nav-item item="[[item]]" label="[[_getItemProp(item, keys.label)]]" icon="[[_getItemProp(item, keys.icon)]]" selected$="[[_isItemSelected(item, selectedMeta.item)]]"></px-app-nav-item>
+              <px-app-nav-item item="[[item]]" label="[[_getItemProp(item, keys.label)]]" stroke-width="[[_getItemProp(item, 'strokeWidth')]]" icon="[[_getItemProp(item, keys.icon)]]" selected$="[[_isItemSelected(item, selectedMeta.item)]]"></px-app-nav-item>
             </template>
           </template>
         </template>
@@ -500,7 +500,7 @@ Custom property | Description
 
               <!-- Stamp plain old items, which hold children -->
               <template is="dom-if" if="[[_isItemNotParent(item, keys.children)]]">
-                <px-app-nav-item item="[[item]]" label="[[_getItemProp(item, keys.label)]]" icon="[[_getItemProp(item, keys.icon)]]" selected$="[[_isItemSelected(item, selectedMeta.item)]]" overflowed$="[[someOverflowed]]" collapsed$="[[allCollapsed]]">
+                <px-app-nav-item item="[[item]]" label="[[_getItemProp(item, keys.label)]]" stroke-width="[[_getItemProp(item, 'strokeWidth')]]" icon="[[_getItemProp(item, keys.icon)]]" selected$="[[_isItemSelected(item, selectedMeta.item)]]" overflowed$="[[someOverflowed]]" collapsed$="[[allCollapsed]]">
                 </px-app-nav-item>
               </template>
             </template>
@@ -522,7 +522,7 @@ Custom property | Description
 
             <!-- Stamp plain old items, which hold children -->
             <template is="dom-if" if="[[_isItemNotParent(item, keys.children)]]">
-              <px-app-nav-item item="[[item]]" label="[[_getItemProp(item, keys.label)]]" icon="[[_getItemProp(item, keys.icon)]]" selected$="[[_isItemSelected(item, selectedMeta.item)]]" collapsed only-show-icon$="[[!verticalOpened]]" empty-icon="[[_isIconEmpty(item, keys.icon)]]">
+              <px-app-nav-item item="[[item]]" label="[[_getItemProp(item, keys.label)]]" stroke-width="[[_getItemProp(item, 'strokeWidth')]]" icon="[[_getItemProp(item, keys.icon)]]" selected$="[[_isItemSelected(item, selectedMeta.item)]]" collapsed only-show-icon$="[[!verticalOpened]]" empty-icon="[[_isIconEmpty(item, keys.icon)]]">
               </px-app-nav-item>
             </template>
           </template>
