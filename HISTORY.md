@@ -1,4 +1,9 @@
+v2.2.1
+==================
+* Fixed px-nav icon spacing issue when the rendering direction is "rtl" Right-To-Left.
+
 v2.2.0
+==================
 * add strokeWidth in nav item
 
 v2.1.7
