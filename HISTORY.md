@@ -1,3 +1,7 @@
+v2.2.2
+==================
+* Fixed typo markin to margin
+
 v2.2.1
 ==================
 * Fixed px-nav icon spacing issue when the rendering direction is "rtl" Right-To-Left.
