@@ -1,3 +1,7 @@
+v2.2.3
+==================
+* Css file was not being generated. Fix that
+
 v2.2.2
 ==================
 * Fixed typo markin to margin
